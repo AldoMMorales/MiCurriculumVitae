@@ -26,7 +26,8 @@
    
   
   a:hover {
-    background-color:lightblue;
+    color: #e5e5e5;
+    background-color:blue;
      
   }
                 
@@ -49,7 +50,7 @@
   
   .card {
       size:auto;
-      border: 2px solid #6c6ced;
+      border: 2px solid green;
     border-radius: 5px;
     padding: 5px;
       margin: 2px;
@@ -62,7 +63,7 @@
   
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
-    .menu, .main, .right {
+    .menu, .contents, .right {
       width: 100%;
     }
   }
