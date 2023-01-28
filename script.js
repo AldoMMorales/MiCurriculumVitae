@@ -7,6 +7,15 @@ function init () {
     
     var experiencias_laborales = document.getElementById("experiencias_laborales");
     experiencias_laborales.style.display = "none";
+
+    var educacion = document.getElementById("educacion");
+    educacion.style.display = "none";
+
+    var objetivo_laboral = document.getElementById("objetivo_laboral");
+    objetivo_laboral.style.display = "none";
+
+    var idiomas = document.getElementById("idiomas");
+    idiomas.style.display = "none";
     
     }
 
@@ -28,5 +37,15 @@ function ocultar (){
     
     var experiencias_laborales = document.getElementById("experiencias_laborales");
     experiencias_laborales.style.display = "none";
+
+    var educacion = document.getElementById("educacion");
+    educacion.style.display = "none";
+
+    var objetivo_laboral = document.getElementById("objetivo_laboral");
+    objetivo_laboral.style.display = "none";
+
+    var idiomas = document.getElementById("idiomas");
+    idiomas.style.display = "none";
+
     
 }
