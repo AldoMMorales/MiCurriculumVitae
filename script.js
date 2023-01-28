@@ -2,11 +2,11 @@
 
 
 function init () {
-    var grafica = document.getElementById("sec_grafica");
-    grafica.style.display = "none";
+    var datos_contacto = document.getElementById("datos_contacto");
+    datos_contacto.style.display = "none";
     
-    var mapa = document.getElementById("sec_mapa");
-    mapa.style.display = "none";
+    var experiencias_laborales = document.getElementById("experiencias_laborales");
+    experiencias_laborales.style.display = "none";
     
     }
 
@@ -20,13 +20,13 @@ function cambio (ref) {
 
 
 function ocultar (){
-    var textos = document.getElementById("sec_textos");
-    textos.style.display = "none";
+    var datos_personales = document.getElementById("datos_personales");
+    datos_personales.style.display = "none";
     
-    var grafica = document.getElementById("sec_grafica");
-    grafica.style.display = "none";
+    var datos_contacto = document.getElementById("datos_contacto");
+    datos_contacto.style.display = "none";
     
-    var mapa = document.getElementById("sec_mapa");
-    mapa.style.display = "none";
+    var experiencias_laborales = document.getElementById("experiencias_laborales");
+    experiencias_laborales.style.display = "none";
     
 }

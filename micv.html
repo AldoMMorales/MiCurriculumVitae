@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
     <link rel="icon" type="image/x-icon" href="C:\Users\User\Pictures\favicon.ico">
+    
     <title>Mi Curriculum Vitae</title>
     
 </head>
-<body>
+
+
+
+
+<body onload="init()">
     <div id="main-wrapper">
        
         <!-- Título de la página -->    
@@ -20,20 +26,21 @@
             <!-- Menu clickleable lado izquierdo -->
 <div style="overflow:auto">
   <div class="menu">
-    <a href="#datos-personales">Datos Personales</a>
-    <a href="#datos-contacto">Datos de contacto</a>
-    <a href="#experiencias-laborales">Experiencias laborales</a>
-    <a href="#">Educación</a>
-      <a href="#">Objetivo laboral</a>
-      <a href="#">Idiomas</a>
+    <a href="#" onclick="cambio('datos_personales')">Datos Personales</a>
+    <a href="#" onclick="cambio('datos_contacto')">Datos de contacto</a>
+    <a href="#" onclick="cambio('experiencias_laborales')">Experiencias laborales</a>
+    <a href="#" onclick="cambio('educacion')">Educación</a>
+      <a href="#" onclick="cambio('objetivo_laboral')">Objetivo laboral</a>
+      <a href="#" onclick="cambio('idiomas')">Idiomas</a>
   </div>
     
             <!-- Menu principal centro -->
-  <div class="main">
+  <div class="contents">
       
       
       <!-- Caja o division de datos personales -->
-      <div class="card" id="datos-personales">
+      <div class="card">
+        <section id="datos_personales">
     <h3>Datos Personales</h3>
           
         <li>Nombres</li>
@@ -48,78 +55,34 @@
           <span>Soltero</span>
         <li>Documento</li>
           <span>3873638873</span>
-          
+        </section>          
   </div>
       
       <!-- Caja o division de datos de contacto-->
-      <div class="card" id="datos-contacto">
+      <div class="card">
+        <section id="datos_contacto">
           <h3>Datos de contacto</h3>
           
           <li>Telefono</li>
           <li>E-mail</li>
           <li>Direccion</li>
+          </section>
       
       </div>
       
       
       <!-- Caja o division de experiencias laborales-->
-      <div class="card" id="experiencias-laborales">
+      <div class="card">
+        <section id="experiencias_laborales">
           <h3>Experiencias laborales</h3>
       <li>Apellido</li>
           <li>Apellido</li>
           <li>Apellido</li>
+        </section>
       
     </div>
 
-    <!--Caja o division de Educacion-->
-    <div class="card" id="educacion">
-      <h3>Educacion</h3>
-      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
-        It has roots in a piece of classical Latin literature from 45 BC, 
-        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
-        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
-        discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, 
-        written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", 
-        comes from a line in section 1.10.32.
-
-
-
-      </p>
-    </div>
-
-    <!--Caja o division de Objetivo Laboral-->
-    <div class="card" id="objetivo_laboral">
-
-      <p> standard chunk of Lorem Ipsum used since the 1500s is 
-      reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" 
-      by Cicero are also 
-      reproduced in their exact original form, 
-      accompanied by English versions from the 1914 translation by H. Rackham.
-      </p>
-
-
-
-    </div>
-
-    <!--Caja o division de Idiomas-->
-    <div class="card" id="idiomas">
-      <section>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-
-        </p>
-      </section>
-      <section>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-            </section>
-            </div>
+    
 
 
       
@@ -134,7 +97,7 @@
     
             <!-- Lado izquierdo para publicidad -->
   <div class="right">
-    <h2>About</h2>
+    <h2>ADsense Google</h2>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
   </div>
 </div>
@@ -145,6 +108,6 @@
 
 <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
         
- <script type="text/javascript" href="script.js"></script>   
+    
 </body>
 </html>
