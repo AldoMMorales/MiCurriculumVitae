@@ -4,6 +4,22 @@
 * {
     box-sizing: border-box;
   }
+
+
+  .contenedor {
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+
   
   
   
@@ -22,9 +38,6 @@
     color: black;
   }
   
-  a:link {
-    background-color: red;
-  } 
    
   
   a:hover {
@@ -55,6 +68,7 @@
       size:auto;
       border-left: 10px solid #1C6EA4;
       text-indent: 6px;
+
     
       }
   
