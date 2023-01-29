@@ -29,7 +29,7 @@
   
   a:hover {
     color: #e5e5e5;
-    background-color:blue;
+    background-color:#1C6EA4;
      
   }
  
@@ -53,17 +53,13 @@
   
   .card {
       size:auto;
-      border: 2px solid green;
-    border-radius: 5px;
-    padding: 5px;
-      margin: 2px;
-      
-      
-      
-      
-      
-  }
+      border-left: 10px solid #1C6EA4;
+      text-indent: 6px;
+    
+      }
   
+  
+
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
     .menu, .contents, .right {
