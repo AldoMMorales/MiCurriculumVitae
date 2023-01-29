@@ -22,7 +22,9 @@
     color: black;
   }
   
-  
+  a:link {
+    background-color: red;
+  } 
    
   
   a:hover {
@@ -30,6 +32,7 @@
     background-color:blue;
      
   }
+ 
                 
   
   .contents {
